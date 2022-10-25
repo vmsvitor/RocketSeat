@@ -1,0 +1,57 @@
+<!--
+    <datalist>
+
+        - Lista de valores como sugestão a uma tag <input>
+        - Valores sugestivos e não obirgatórios
+        - Usuário poderão selecionar um dos valores, ou colocar um valor diferente de sugestão
+
+        <datalist id="fruitsdata">
+            <option>apple</option>
+            <option>banana</option>
+            <option>mango</option>
+            <option>orange</option>
+            <option>cherry</option>
+        </datalist>
+
+        # list
+
+        - Recebe como valor o id de um <data> residente no mesmo documento
+
+        # Tipos de input suportados
+
+        - text, search, url, tel, email, date, month, week, time, datetime-local, number, range e color
+
+        * Valores de datalist que não são compatíveis com o tipo de <input> não serão apresentados.
+
+        # Tipos de input não suportados (conforme especificação)
+
+        - hidden, password, checkbar, radio, file ou qualquer tipo de button
+
+
+
+
+
+
+-->
+
+<input type="text"
+        list="fruitdata"
+        placeholder="Escolha uma fruta">
+    
+    <datalist id="fruitdata">
+        <option>apple</option>
+        <option>banana</option>
+        <option>mango</option>
+        <option>orange</option>
+        <option>cherry</option>
+    </datalist>
+
+
+<datalist id="colordata">
+    <option>#ff0000</option>
+    <option>#f00ff00</option>
+    <option>#0000ff</option>
+
+
+</datalist>
+<input type="color" list="colordata">

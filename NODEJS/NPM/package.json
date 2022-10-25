@@ -1,0 +1,22 @@
+{
+  "name": "qualquer-nome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "nodejs"
+  ],
+  "author": "Vitor Morais",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cfonts": "^3.1.1",
+    "D": "^1.0.0",
+    "inquirer": "^9.1.0",
+    "opn": "^6.0.0"
+  }
+}
